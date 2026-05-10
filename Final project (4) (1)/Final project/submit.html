@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Clips - TheFPSGuide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>TheFPSGuide</h1><nav><ul></ul></nav></header>
+    <main>
+        <h2>Submit Your Highlights</h2>
+        <form action="#" method="POST">
+            <label for="name">In-Game Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="rank">Current Rank:</label><br>
+            <select id="rank" name="rank">
+                <option value="diamond">Diamond</option>
+                <option value="immortal">Immortal</option>
+                <option value="radiant">Radiant</option>
+            </select><br><br>
+
+            <label for="link">Video URL:</label><br>
+            <input type="url" id="link" name="link" required><br><br>
+
+            <input type="submit" value="Send Clip">
+        </form>
+    </main>
+</body>
+</html>
